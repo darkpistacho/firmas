@@ -1,0 +1,40 @@
+@font-face {font-family: 'Roboto Flex';src:url('https://dl.dropbox.com/s/i12yqlde42mhnng/RobotoFlex%5BGRAD%2CXOPQ%2CXTRA%2CYOPQ%2CYTAS%2CYTDE%2CYTFI%2CYTLC%2CYTUC%2Copsz%2Cslnt%2Cwdth%2Cwght%5D.ttf');format("truetype");}
+
+.derrf0 {width:270px;height:200px;background:#000;margin:0 auto;display:flex;padding:7px;position:relative;overflow:hidden;}
+
+.derrf0 cc {position:absolute;height:1px;width:0;background:#5a9fa2;left:0px;top:0px}
+
+.derrf0 kk {position:absolute;height:1px;width:0;background:#5a9fa2;right:0px;bottom:0px}
+
+.derrf1 {width:170px;height:200px;background:var(--derryf1);position:relative;overflow:hidden;}
+
+.derrf2 {width: 100px;
+    height: 200px;
+    background-image: var(--derryf2);
+    background-color: #a2bbb6;
+    background-blend-mode: multiply;}
+
+.derrf2 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;font-size:8px; font-family: "Roboto condensed", sans-serif;text-transform:uppercase;letter-spacing:1px;padding:10px
+}
+
+.derrf2 div i {    color: var(--derrycolor);
+    margin: 10px;
+    font-size: 40px;
+    height: 45px;
+    display: flex;
+    align-items: center;}
+
+.derrf05 {width:0px;height:200px;background-color:#00000075;background-image:var(--derrygif);background-blend-mode: multiply;position:absolute;right:0px;top:0px;opacity:0;transition: 0.5s ease-in-out 0.3s;}
+
+.derrf1 de {position:absolute;background:#00000075;height:200px;width:1px;right:0px;transition: 0.5s ease-in-out 0.3s;}
+
+.derrf0:hover .derrf05 {width:170px;opacity:1;transition: 0.5s ease-in-out 0s;}
+
+.derrf0:hover .derrf1 de {background:var(--derrycolor);transition: 0.5s ease-in-out 0s;}
