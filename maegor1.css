@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css");
+
+.firmaegor0 {width:220px;height:190px;background:#0c0c0c; margin: 0 auto;padding:15px;outline:1px solid black;position:relative;}
+
+.firmaegor0 cc {position: absolute;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, black, transparent);
+    left: 0px;}
+
+.firmaegor2 {width:220px;height:190px;background:url(https://images2.imgbox.com/c0/a9/YWDmvEmB_o.png);position:relative;overflow:hidden;}
+
+.firmaegor3 {background: #000000d1;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--colormaegor);
+    backdrop-filter: blur(2px);opacity:0;transition: 1s ease-in-out 0.5s;}
+
+.firmaegor3 div {width:140px;font-family:"roboto condensed", sans-serif;text-transform:uppercase;font-size:7.5px;letter-spacing:1px;text-align:justify;line-height:150%;color:#bfbfbf;text-shadow:1px 1px black;transform: scale(1.5);opacity:0;transition: 0.2s ease-in-out;}
+
+.firmaegor3 div b {background:var(--colormaegor);}
+
+.firmaegor0:hover .firmaegor3 {opacity:1;transition:0.5s ease-in-out;}
+
+.firmaegor0:hover .firmaegor3 div {opacity:1;transform: scale(1);transition:0.2s ease-in-out 0.5s;}
