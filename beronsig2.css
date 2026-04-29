@@ -1,0 +1,79 @@
+.beronfir0 {width:270px;
+height:190px;background:#0c0c0c;margin:0 auto;margin-bottom: 25px;padding:10px;position:relative;overflow:hidden;color:#ededed;font-family:Rubik;font-size: 8px; text-transform: uppercase;letter-spacing: 3px;}
+
+.beronfir0 cc1 {position:absolute;width:100%;height:1px;background:#5e623b;left:0px;top:0px;transition:1s ease-in-out 1s;}
+
+.beronfir0 cc2 {position:absolute;width:100%;height:1px;background:#5e623b;right:0px;bottom:0px;transition:1s ease-in-out 1s;}
+
+.ber0cont {width:270px;height:190px;outline:1px solid #1c1c1c;outline-offset:-1px;overflow:hidden;position:relative;}
+
+.berf1 {width:270px;height:190px;position:absolute;left:0px;top:0px;background:url(https://i.ibb.co/NvYqzRt/fir12.gif)}
+
+.berf2 {opacity:0;width: 270px;
+    height: 190px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #33361a;
+    mix-blend-mode: multiply;transition:1s ease-in-out 0.5s;}
+
+.bert1 {position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #1616169c;
+    font-family: "rubik";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    padding-top: 5px;
+    line-height: 100%;
+    transition: 0.5s ease-in-out 1s;}
+
+.bert1 b {color:#a3ab5c}
+
+.bert2 {position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;top:0px;opacity:0;transition:0.3s ease-in-out 0s;}
+
+.bert2 cc3 {font-family: Six Caps;
+    font-weight: 500;
+    font-size: 65px;
+    letter-spacing: 2px;
+    line-height: 100%;
+    color: #a7b155;animation: glitchiber 1s infinite;}
+
+.bert3 {position: absolute;
+    top: 110px;
+    width: 100%;
+    line-height: 200%;display: flex;
+    justify-content: center;opacity:0;transform:scale(1.4);transition:0.3s ease-in-out 0s;}
+
+.bert3 div {width:165px;font-size:7.5px;letter-spacing:2px;text-align:center;}
+
+.bert3 div u {text-decoration:none;border-bottom:1px solid #5e623b;font-weight:700;}
+
+@keyframes glitchiber {
+    0%, 100% { opacity: 1; }
+    20% { opacity: 0.5; }
+    25% { opacity: 1; }
+    40% { opacity: 0.2; }
+    65% { opacity: 0.7; }
+    85% { opacity: 0.5; }
+  }
+
+/** hover **/
+
+.beronfir0:hover .berf2 {opacity:1;transition:1s ease-in-out 0.2s;}
+
+.beronfir0:hover .bert1 {bottom:-26px;transition:0.5s ease-in-out 0s;}
+
+.beronfir0:hover .bert2 {opacity:1;top:20px;transition:0.4s ease-in-out 0.8s;}
+
+.beronfir0:hover .bert3 {opacity:1;transform:scale(1);transition:0.3s ease-in-out 0.8s;}
+
+.beronfir0:hover cc1 {left:-300px;transition:0.8s ease-in-out 0s;}
+
+.beronfir0:hover cc2 {right:-300px;transition:0.8s ease-in-out 0s;}
