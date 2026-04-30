@@ -1,0 +1,106 @@
+.valf0 {width:270px;
+height:200px;background:#0c0c0c;margin:0 auto;padding:10px;position:relative;overflow:hidden;color:#ededed;font-family:Rubik;font-size: 8px; text-transform: uppercase;letter-spacing: 3px;}
+
+.valfcont {width:270px;
+height:200px;position:relative;overflow:hidden;}
+
+.valf1 {width:270px;
+height:200px;background:url(https://i.ibb.co/Fk1FqBM5/firma12.gif);position:absolute;}
+
+.valf0 rr1 {position:absolute;top:9px;left:9px;width:35px;height:1px;background:#af823d;transition: 0.5s ease-in-out 1.5s}
+
+.valf0 rr2 {position:absolute;bottom:9px;right:9px;width:35px;height:1px;background:#af823d;transition: 0.5s ease-in-out 1.5s}
+
+.valf0 rr3 {position:absolute;top:9px;left:9px;height:35px;width:1px;background:#af823d;transition: 0.5s ease-in-out 1.5s}
+
+.valf0 rr4 {position:absolute;bottom:9px;right:9px;height:35px;width:1px;background:#af823d;transition: 0.5s ease-in-out 1.5s}
+
+.valf0 .valt1 {
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+    line-height: 100%;
+    background: #24242487;
+    padding: 7px;transition: 0.5s ease-in-out 1.5s
+}
+
+.valf0 .valt2 {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    line-height: 100%;
+    background: #24242487;
+    padding: 7px;transition: 0.5s ease-in-out 1.5s
+}
+
+.valt2 k , .valt1 k {font-weight:700;color:#af823d;}
+
+.valf0 .valf2 {
+    position: absolute;
+    width: 270px;
+    height: 0px;
+    background: #6a5738;
+    mix-blend-mode: multiply;transition: 0.5s ease-in-out 1s;
+}
+
+.valf0 .valt3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    top: 45px;
+    align-items: center;
+    width: 100%;line-height:100%;opacity:0;transition: 0.5s ease-in-out 0.5s;
+}
+
+.valf0 .valt3 u {text-decoration:none;font-weight:700;border-bottom:1px solid #af823d;}
+
+.valf0 .valt4 {position:absolute;font-family: Six Caps;font-weight: 500;font-size: 65px;letter-spacing: 2px;line-height: 100%;color: #af823d;bottom:40px;width:100%;text-align:center;animation: bombval 1s ease-in-out infinite;opacity:0;transition: 0.5s ease-in-out 0.5s;}
+
+@keyframes bombval {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  
+  20% {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+  
+  40% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  60% {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+
+  80% {
+    transform: scale(1.1);
+    color: #af823d;
+  }
+
+  100% {
+    transform: scale(1.4);
+    color: transparent;
+  }
+}
+
+/** hover **/
+
+.valf0:hover rr1 , .valf0:hover rr2 {width:0px;transition: 0.5s ease-in-out 0s;}
+
+.valf0:hover rr3 , .valf0:hover rr4 {height:200px;transition: 0.5s ease-in-out 0s;}
+
+.valf0:hover .valt1 {left:-200px;transition: 0.5s ease-in-out 0s;}
+
+.valf0:hover .valt2 {right:-200px;transition: 0.5s ease-in-out 0s;}
+
+.valf0:hover .valf2 {height:200px;transition: 0.5s ease-in-out 0s;}
+
+.valf0:hover .valt3 {opacity:1;transition: 0.5s ease-in-out 0.7s;}
+
+.valf0:hover .valt4 {opacity:1;transition: 0.5s ease-in-out 1.5s;}
