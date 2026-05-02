@@ -1,0 +1,48 @@
+.amors0 {width:295px;margin:0 auto;font-family:roboto condensed;font-size:9px;text-transform:uppercase;line-height:100%;color:#ededed;}
+
+.amorsq1 {text-align:center;}
+
+.amorsli1 {height:2px;background:linear-gradient(
+90deg, #718e9b,transparent);margin:10px 0px;}
+
+.amorsli2 {height:2px;background:linear-gradient(
+90deg, transparent, #718e9b);margin:10px 0px;}
+
+.amorscont {width:295px;height:180px;}
+
+.amorspic {width:295px;height:180px;border:1px solid black;box-sizing:border-box;position:relative;overflow:hidden;}
+
+.amorspic cc {display:flex;width:295px;height:180px;background:url(https://i.ibb.co/j9YsDR2y/firmi1.gif);position:absolute;}
+
+.amorsf1 {position:absolute;width:295px;height:0px;background:#00000085;left:0px;top:0px;transition:1s ease-in-out 1s;}
+
+.amorsf2 {position:absolute;width:295px;height:0px;background:#00000085;left:0px;bottom:0px;transition:1s ease-in-out 1s;}
+
+.amorsq2 {position:absolute;top:25px;left:30px;width:235px;line-height:200%;text-align:center;letter-spacing:1px;opacity:0;transition:1s ease-in-out 0s;}
+
+.amorsq3 {position:absolute;bottom:25px;left:25px;width:245px;text-align:center;font-family:playfair display;font-size:18px;line-height:100%;font-weight:700;color:#718e9b;opacity:0;transition:1s ease-in-out 0s;}
+
+.amorsq3 u {text-decoration:none;border-bottom:1px solid #ededed}
+
+.amorsicon {position:absolute;font-size:50px;color:#2e2e2e;left:125px;top:55px;text-shadow:2px 2px 2px black;animation: cadenita 2s ease-in-out infinite;opacity:0;transition:1s ease-in-out 0s;}
+
+@keyframes cadenita {
+  0% {color:#2e2e2e;}
+  50% {color:#204352;}  
+100% {color:#2e2e2e;}
+}
+
+
+/** hover **/
+
+.amors0:hover .amorspic cc {filter:grayscale(1);transition:1s ease-in-out 0s;}
+
+.amors0:hover .amorsf1 {height:190px;transition:1s ease-in-out 0s;}
+
+.amors0:hover .amorsf2 {height:190px;transition:1s ease-in-out 0s;}
+
+.amors0:hover .amorsicon {opacity:1;transition:1s ease-in-out 1s;}
+
+.amors0:hover .amorsq2 {opacity:1;transition:1s ease-in-out 0.7s;}
+
+.amors0:hover .amorsq3 {opacity:1;transition:1s ease-in-out 1.5s;}
