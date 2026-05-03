@@ -1,0 +1,48 @@
+.ben0 {width:285px;height:175px;margin:0 auto;position:relative;padding:10px;background:#080808;color:#ededed;outline:1px solid #221e1a;}
+
+.bencont {width:285px;height:175px;position:relative;overflow:hidden;}
+
+.benpic1 {width:285px;height:175px;background:url(https://i.ibb.co/p6WqJRkB/fir1.png);}
+
+.benq1 {color: transparent;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+-webkit-text-stroke: 1px #fff;
+font-family:bokor;font-size:33px;line-height:100%;font-style:italic;transition:0.5s ease-in-out 2.5s;}
+
+.benq1 u {text-decoration:none;animation:glitchben 4s infinite;}
+
+.benfil1 {position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 175px;
+    width: 40px;
+    background: #a97a56a6;
+    mix-blend-mode: multiply;transition:0.5s ease-in-out 2.5s;}
+
+.benpic2 {width:285px;height:175px;background:url(https://i.ibb.co/pB2ZKq7y/firr4.gif);position:absolute;top:0px;left:0px;opacity:0;transition:2s ease-in-out 1s;}
+
+.benq2 {position:absolute;bottom:-50px;line-height:100%;width:100%;text-align:center;font:9px roboto condensed;text-transform:uppercase;letter-spacing:1.5px;transition:0.5s ease-in-out 0s;}
+
+.benq2 g {color:#ad8666;font-weight:900;}
+
+@keyframes glitchben {
+    0%, 100% { opacity: 1; }
+    20% { opacity: 0.7; }
+    25% { opacity: 1; }
+    40% { opacity: 0.6; }
+    65% { opacity: 0.4; }
+    85% { opacity: 0.9; }
+  100% { opacity: 1; }
+  }
+
+/** hover **/
+
+.ben0:hover .benfil1 {left:-80px;transition:0.5s ease-in-out 0s;}
+
+.ben0:hover .benq1 {opacity:0;transform:scale(0.5);transition:0.5s ease-in-out 0s;left:-100px;}
+
+.ben0:hover .benpic2 {opacity:0.95;transition:1s ease-in-out 0.5s;}
+
+.ben0:hover .benq2 {transition:0.5s ease-in-out 1s;bottom:20px;}
