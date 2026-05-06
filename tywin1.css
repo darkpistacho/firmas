@@ -1,0 +1,54 @@
+.ty0 {width: fit-content;
+    background: linear-gradient(-45deg, #8b0e00, #4e0505);
+    margin: 0 auto;
+    padding: 1px;}
+
+.ty99 {width:290px;height:195px;background:#121212;margin:0 auto;padding:1px;border:5px solid #101010;}
+
+.ty-cont {width:290px;height:195px;position:relative;overflow:hidden;}
+
+.typic1 {width:290px;height:195px;position:relative;background:url(https://i.ibb.co/jkfQMGFZ/tywfir2.gif);}
+
+.ty-caru {position:absolute;display:flex;top:0px;left:0px;transition:1.5s ease-in-out 0.8s;}
+
+.typic2 {width:290px;height:195px;position:relative;background:url(https://i.ibb.co/dsxQXY5g/tywfir1.gif);}
+
+.typic3 {width:500px;height:195px;position:relative;background:#992709;mix-blend-mode:multiply;}
+
+.typic4 {position: absolute;
+    left: 14px;
+    bottom: 15px;
+    font-family: intel one mono;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 9px;
+    text-shadow: 0px 0px 3px black;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 250px;
+    background: #0000004d;
+    padding: 5px;
+    outline: 1px solid #181818;transition:0.8s ease-in-out 2s;}
+
+.typic5 {position: absolute;
+    left: 14px;
+    top: -50px;
+    font-family: intel one mono;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 9px;
+    text-shadow: 0px 0px 3px black;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 250px;
+    background: #0000004d;
+    padding: 5px;
+    outline: 1px solid #181818;transition:0.8s ease-in-out 0s;}
+
+/** HOVER **/
+
+.ty0:hover .ty-caru {left:-790px;transition:1.5s ease-in-out 0.8s;}
+
+.ty0:hover .typic4 {bottom:-50px;transition:0.8s ease-in-out 0s;}
+
+.ty0:hover .typic5 {top:15px;transition:0.8s ease-in-out 2s;}
