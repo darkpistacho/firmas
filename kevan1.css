@@ -1,0 +1,43 @@
+.kevan0 {width: 290px;color:#ededed;
+    height: 225px;
+    margin: 0 auto;margin-bottom:20px;
+    background: linear-gradient(90deg, #4e1f1f, #000000);
+    padding: 10px;
+    outline: 1px solid #000;
+    outline-offset: -5px;transition:0.5s ease-in-out 0.5s;}
+
+.kevancont {width:290px;height:225px;background:#111;position:relative;overflow:hidden;}
+
+.kevan2d {width:290px;height:225px;position:absolute;top:0px;left:0px;}
+
+.kevan1d {width: 290px;
+    height: 225px;
+    position: absolute;
+    top: -225px;
+    left: 0px;
+    background: #242424;
+    mix-blend-mode: multiply;transition:0.5s ease-in-out 0.5s;}
+
+.kevan3d {position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;opacity:0;filter:blur(5px);transition:0.5s ease-in-out 0s;}
+
+.kevan3d div {font-family: roboto mono;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: center;
+    border-bottom: 1px solid #4e1f1f;
+    border-top: 1px solid #4e1f1f;
+    padding: 20px 0px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 150%;}
+
+.kevan0:hover .kevan1d {top:0px;transition:1s ease-in-out;}
+
+.kevan0:hover {outline:1px solid #4e1f1f;transition:1s ease-in-out;}
+
+.kevan0:hover .kevan3d {opacity:1;filter:blur(0px);transition:1s ease-in-out 1s;}
