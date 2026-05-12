@@ -1,0 +1,15 @@
+.gyles0 {width:290px;height:200px;margin:0 auto;background:black;padding:10px;position:relative;overflow:hidden;color:#ededed;}
+
+.gylesin {width:290px;height:200px;position:relative;overflow:hidden;outline: 1px solid #161616;}
+
+.gyles1 {width:290px;height:200px;background:url(https://i.ibb.co/ZRNgFQjQ/firma.gif);}
+
+.gyles2 {position:absolute;bottom:20px;left:-200px;font-family: "Noto Serif", serif;text-transform:uppercase;font-size:12px;letter-spacing:3px;text-shadow:0px 0px 3px black;line-height:100%;padding:5px;padding-bottom:10px;padding-left:10px;border-left:5px solid #C79F00;transition:0.5s ease-in-out 0s;}
+
+.gyles2 k {display:block;text-transform:lowercase;letter-spacing:0px;font-size:27px;font-style:italic;margin-top:5px;}
+
+.gylesback {position:absolute;width:0px;height:100%;background:#c79f0069;top:0px;left:0px;transition:0.5s ease-in-out 0s;}
+
+.gyles0:hover .gylesback {width:35px;transition:0.5s ease-in-out 0s;}
+
+.gyles0:hover .gyles2 {left:20px;transition:0.5s ease-in-out 0s;}
