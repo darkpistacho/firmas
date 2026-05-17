@@ -1,0 +1,73 @@
+.dander0 {width:290px;height:210px;margin:0 auto;margin-bottom:20px;background:black;padding:5px;position:relative;color:#ededed;line-height:100%;}
+
+.danderin {width:290px;height:210px;position:relative;overflow:hidden;}
+
+.dan1pic {width:290px;height:210px;position:absolute;background:url(https://i.ibb.co/jkhVdqTk/firma1.png);top:0px;left:0px;}
+
+.dan2pic {width:290px;height:210px;position:absolute;background:url(https://i.ibb.co/39CLMZnF/fi2.gif);top:0px;left:0px;opacity:0;transition:0.5s ease-in-out 0.5s;}
+
+.dan2pic:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #686868;mix-blend-mode:multiply;
+}
+
+.dan1fil {position: absolute;
+    background: #060606d4;
+    width: 400px;
+    height: 700px;
+    transform: rotate(54deg);
+    left: -350px;
+    top: -495px;transition:0.5s ease-in-out 1s;}
+
+.dan2fil {position: absolute;
+    background: #060606d4;
+    width: 400px;
+    height: 700px;
+    transform: rotate(54deg);
+    left: 250px;
+    top: -1px;transition:0.5s ease-in-out 1s;}
+
+.dan1quote {position:absolute;bottom:73px;right:25px;font-family:roboto condensed;text-transform:uppercase;font-size:9px;letter-spacing:2px;text-align:right;text-shadow:1px 0px 3px black;transition:0.5s ease-in-out 1.5s;}
+
+.dan1quote j {display:block;text-transform:lowercase;font-family: "Felipa", serif;font-size:45px;line-height:75%;letter-spacing:-1px;text-shadow:0px 0px 10px #3FA391;}
+
+.dander0 g1 {height: 55px;
+    width: 1px;
+    background: white;
+    position: absolute;
+    right: 75px;
+    top: 0px;transition:0.5s ease-in-out 1.5s;}
+
+.dander0 g2 {height: 55px;
+    width: 1px;
+    background: white;
+    position: absolute;
+    right: 75px;
+    bottom: 0px;transition:0.5s ease-in-out 1.5s;}
+
+
+.dan2quote {position:absolute;width:100%;bottom:30px;left:0px;font-family:roboto condensed;text-transform:uppercase;font-size:9px;letter-spacing:3px;text-align:center;text-shadow:1px 0px 3px black;opacity:0;filter:blur(5px);transition:0.5s ease-in-out 0s;}
+
+.dan2quote nn {
+    border-bottom: 2px solid #3FA391;
+    padding-bottom: 2px;
+}
+
+.dander0:hover .dan1fil {left: -50px;top: -495px;transition:0.5s ease-in-out 0s;}
+
+.dander0:hover .dan2fil {left: -50px;top: -1px;transition:0.5s ease-in-out 0s;}
+
+.dander0:hover .dan2pic {opacity:1;transition:0.5s ease-in-out 1s;}
+
+.dander0:hover .dan3fil {opacity:1;transition:0.5s ease-in-out 1s;}
+
+.dander0:hover g1 , .dander0:hover g2 {height:0px;transition:0.5s ease-in-out 0.5s;}
+
+.dander0:hover .dan1quote {filter:blur(5px);opacity:0;transition:0.5s ease-in-out 0.5s;}
+
+.dander0:hover .dan2quote {filter:blur(0px);opacity:1;transition:0.5s ease-in-out 1.3s;}
