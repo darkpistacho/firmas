@@ -1,0 +1,83 @@
+@font-face {font-family: 'Playfair Display';font-style: normal;font-weight: 400 900;font-display: swap;src: url(https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTcviYwY.woff2) format('woff2');}
+
+.p3firma0 {width: 282px;
+    height: 202px;
+    background: #161616;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;}
+
+.p3firma0 br {display:none;}
+
+.p3in {width:280px;height:200px;background-size:cover;position:relative;overflow:hidden;border-top:1px solid transparent;border-bottom:1px solid transparent;border-left:1px solid transparent;border-right:1px solid transparent;}
+
+.p3img1 {width:280px;height:200px;background:url(https://i.pinimg.com/originals/0d/40/1d/0d401d362bb34ca65f524f544325a31e.gif);background-size:cover;background-position:center;position:absolute;left:0px;top:0px;}
+
+.p3img2 {width:280px;height:200px;background:url(https://i.pinimg.com/originals/84/a1/08/84a108561bf27ee0340fe42dd1ae3f34.gif);background-size:cover;background-position:center;position:absolute;left:0px;top:0px;opacity:0;filter:grayscale(1);}
+
+.p3main {position: absolute;
+    color: #ddd;
+    top: 0px;
+    left: 0px;
+    width: 280px;
+    line-height: 100%;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(180deg);
+    font-family: 'Playfair Display';
+    font-size: 35px;
+    text-shadow: 2px 2px var(--group);
+    border-left: 1px solid var(--group);
+    border-right: 1px solid var(--group);
+    box-sizing: border-box;
+    padding-right: 10px;}
+
+.p3filter1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #404040;
+    mix-blend-mode: multiply;opacity:0;
+}
+
+.p3text {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 250px;
+    font-family: 'Inter';
+    text-transform: uppercase;
+    font-size: 7.5px;
+    text-align: justify;
+    letter-spacing: 1px;
+    background: #20202038;
+    box-sizing: border-box;
+    padding: 10px;
+    line-height: 150%;
+    backdrop-filter: blur(3px);opacity:0;
+}
+
+.p3text k {color:var(--group);font-weight:900;}
+
+.p3firma0:hover .p3main {top:200px;transition:1.5s ease-in-out 0s;}
+
+.p3firma0:hover .p3filter1 {opacity:1;transition:1.5s ease-in-out 0.5s;}
+
+.p3firma0:hover .p3img2 {opacity:1;transition:0.5s ease-in-out 2s;}
+
+.p3firma0:hover .p3in {border-top:1px solid var(--group);border-bottom:1px solid var(--group);transition:0.5s ease-in-out 2s;}
+
+.p3firma0:hover .p3text {opacity:1;transition:1s ease-in-out 2.5s;}
