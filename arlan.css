@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTcviYwY.woff2) format('woff2');}
+
+.arlan0 {width:290px;height:200px;background:#161616;margin:0 auto;margin-bottom:20px;color:#fafafa;padding:15px;}
+
+.arlanin {width:290px;height:200px;background:black;position:relative;overflow:hidden;outline:1px solid black}
+
+.arlan1pic {width:290px;height:200px;background:url(https://images2.imgbox.com/6a/c0/AmhagrKd_o.gif);position:absolute;top:0px;left:0px;}
+
+.arlan2pic {width:290px;height:200px;background:url(https://images2.imgbox.com/c7/20/kEJab3gr_o.png);position:absolute;top:0px;left:0px;transition:0.5s ease-in-out 0.5s;}
+
+.arlan1q {position: absolute;
+    font: 8px 'Inter';
+    bottom: 12px;
+    line-height: 100%;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px black;
+    width: 235px;
+    text-align: center;
+    left: 25px;transition:0.5s ease-in-out 1s;}
+
+.arlan1q:after {content:']';position:absolute;right:-10px;font-size:15px;color:#a51b1b;text-shadow:1px 1px 1px black;transition:0.5s ease-in-out 1s;}
+
+.arlan1q:before {content:'[';position:absolute;left:-10px;font-size:15px;color:#a51b1b;text-shadow:1px 1px 1px black;transition:0.5s ease-in-out 1s;}
+.arlan1q span {position:relative;transition:0.5s ease-in-out 1s;}
+
+.arlanfilter {position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 95px;
+    left: 135px;
+    border-radius: 100%;
+    background: #6c6c6c;
+    mix-blend-mode: multiply;
+    opacity: 0;transition:0.2s ease-in-out 0.8s;}
+
+
+.arlan0:hover .arlan1q:before {left:-100px;transition:0.5s ease-in-out 0s;}
+
+.arlan0:hover .arlan1q:after {right:-100px;transition:0.5s ease-in-out 0s;}
+
+.arlan0:hover .arlan1q span {opacity:0;filter:blur(3px);transition:0.5s ease-in-out 0.3s;}
+
+.arlan0:hover .arlanfilter {width:290px;height:200px;opacity:1;border-radius:0%;top:0px;left:0px;transition:0.2s ease-in-out 0.5s;}
+
+.arlan0:hover .arlan2pic {opacity:0;transition:0.5s ease-in-out 1s;}
+
+.arlan2q {position:absolute;top:50px;left:10px;font:14px 'Inter';font-weight:800;width:100px;text-align:right;opacity:0;filter:blur(5px);transition:0.5s ease-in-out 0s;}
+
+.arlan2q k {border-bottom:2px solid #a51b1b;} 
+
+.arlan0:hover .arlan2q {opacity:1;filter:blur(0px);transition:1s ease-in-out 1.5s;}
