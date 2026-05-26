@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2) format('woff2');
+}
+
+.p2firma0 {width:290px;height:200px;margin:0 auto;background:black;padding:10px;position:relative;overflow:hidden;color:#ededed;}
+
+.p2in {width:290px;height:200px;position:relative;overflow:hidden;outline: 1px solid #161616;}
+
+.p2-1 {width:290px;height:200px;background-image:url(https://i.pinimg.com/originals/48/a5/2f/48a52fc09bd9fa4929e28bfb332d3365.gif);background-size:cover;transition:0.5s ease-in-out 0s;}
+
+.p2-2 {position: absolute;
+    bottom: 20px;
+    left: -180px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 3px black;
+    line-height: 110%;
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 160px;
+    padding-left: 10px;
+    border-left: 5px solid var(--group);
+    transition: 0.5s ease-in-out 0s;text-shadow:1px 1px 8px black;}
+
+.p2-2 k {display: block;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 23px;
+    line-height: 100%;
+    margin-bottom: -10px;
+    font-weight: 800;animation: firma2 3s ease-in-out infinite;}
+
+.p2back {position:absolute;width:0px;height:100%;background:var(--group);top:0px;left:0px;opacity:0.5;transition:0.5s ease-in-out 0s;}
+
+.p2-2 k span {position:relative;display:inline-block;}
+
+@keyframes firma2 {
+  0% {color:#ededed}
+  45% {color:#ededed}
+  50% {color:transparent}
+  55% {color:#ededed}
+  100% {color:#ededed}
+}
+
+.p2firma0:hover .p2back {width:35px;transition:0.5s ease-in-out 0s;}
+
+.p2firma0:hover .p2-2 {left:20px;transition:0.5s ease-in-out 0s;}
+
+.p2firma0:hover .p2-1 {filter:grayscale(1);transition:0.5s ease-in-out 0s;}
