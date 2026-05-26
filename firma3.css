@@ -17,11 +17,11 @@
 
 .p3firma0 br {display:none;}
 
-.p3in {width:280px;height:200px;background-size:cover;position:relative;overflow:hidden;border-top:1px solid transparent;border-bottom:1px solid transparent;border-left:1px solid transparent;border-right:1px solid transparent;}
+.p3in {width:280px;height:200px;background-size:cover;position:relative;overflow:hidden;border-top:1px solid transparent;border-bottom:1px solid transparent;border-left:1px solid transparent;border-right:1px solid transparent;transition:0.5s ease-in-out 0.5s;}
 
 .p3img1 {width:280px;height:200px;background:url(https://i.pinimg.com/originals/0d/40/1d/0d401d362bb34ca65f524f544325a31e.gif);background-size:cover;background-position:center;position:absolute;left:0px;top:0px;}
 
-.p3img2 {width:280px;height:200px;background:url(https://i.pinimg.com/originals/84/a1/08/84a108561bf27ee0340fe42dd1ae3f34.gif);background-size:cover;background-position:center;position:absolute;left:0px;top:0px;opacity:0;filter:grayscale(1);}
+.p3img2 {width:280px;height:200px;background:url(https://i.pinimg.com/originals/84/a1/08/84a108561bf27ee0340fe42dd1ae3f34.gif);background-size:cover;background-position:center;position:absolute;left:0px;top:0px;opacity:0;filter:grayscale(1);transition:0.5s ease-in-out 1s;}
 
 .p3main {position: absolute;
     color: #ddd;
@@ -41,7 +41,7 @@
     border-left: 1px solid var(--group);
     border-right: 1px solid var(--group);
     box-sizing: border-box;
-    padding-right: 10px;}
+    padding-right: 10px;transition:1s ease-in-out 1.5s;}
 
 .p3filter1 {
     position: absolute;
@@ -50,7 +50,7 @@
     width: 100%;
     height: 100%;
     background: #404040;
-    mix-blend-mode: multiply;opacity:0;
+    mix-blend-mode: multiply;opacity:0;transition:1s ease-in-out 1.5s;
 }
 
 .p3text {
@@ -60,14 +60,14 @@
     width: 250px;
     font-family: 'Inter';
     text-transform: uppercase;
-    font-size: 8px;
+    font-size: 7.5px;
     text-align: justify;
     letter-spacing: 1px;
     background: #20202038;
     box-sizing: border-box;
     padding: 10px;
     line-height: 150%;
-    backdrop-filter: blur(3px);opacity:0;
+    backdrop-filter: blur(3px);opacity:0;transition:0.5s ease-in-out 0s;
 }
 
 .p3text k {color:var(--group);font-weight:900;}
