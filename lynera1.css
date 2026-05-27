@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2) format('woff2');
+}
+
+.lyne0 {width: 280px;
+    height: 205px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #0a0a0a;
+    padding: 15px;
+    border: 1px solid #1a1a1a;transition:0.5s ease-in-out 0s;}
+
+.lyne0in {width:280px;height:205px;position:relative;overflow:hidden;}
+
+.lyneflow {display:flex;width:565px;height:205px;position:absolute;top:0px;left:0px;transition:1s ease-in-out 0.5s;}
+
+.lyne1pic , .lyne2pic {width:280px;height:205px;background:red;}
+
+.lyne2pic {position:relative;}
+
+.lyne2pic:after {content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #bdbdbd;
+    mix-blend-mode: multiply;}
+
+.lynetext {    position: absolute;
+    right: -100px;
+    width: 100px;
+    background: #30303052;
+    height: 205px;
+    box-sizing: border-box;
+    backdrop-filter: blur(2px);font-family: 'Roboto Condensed';display: flex;flex-direction: column;line-height:100%;text-shadow:1px 1px 1px black;transition:0.5s ease-in-out 0s;}
+
+.lynetext k {font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #b252b7;}
+
+.lynetext span {font-size:8.5px;text-transform:uppercase;letter-spacing:1px;line-height:130%;padding:15px;}
+
+.lyne0:hover .lyneflow {left:-280px;transition:1s ease-in-out 0s;}
+
+.lyne0:hover .lynetext {right:0px;transition:0.7s ease-in-out 1s;}
+
+.lyne0:hover {border-left:1px solid #b252b7;border-right:1px solid #b252b7;transition:0.7s ease-in-out 1s;}
