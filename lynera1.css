@@ -45,7 +45,7 @@
     margin-bottom: 5px;
     color: #b252b7;}
 
-.lynetext span {font-size:8.5px;text-transform:uppercase;letter-spacing:1px;line-height:130%;padding:15px;}
+.lynetext span {font-size:8.5px;text-transform:uppercase;letter-spacing:1px;line-height:130%;padding:15px;color: #fff;}
 
 .lyne0:hover .lyneflow {left:-280px;transition:1s ease-in-out 0s;}
 
