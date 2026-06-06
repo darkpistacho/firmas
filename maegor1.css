@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import url("https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css");
+@font-face {font-family: 'Vasquz';src:url('https://dl.dropbox.com/s/86nloylcb221yth/Vasquz-AL74p.otf');format("truetype");}
 
 .firmaegor0 {width:220px;height:190px;background:#0c0c0c; margin: 0 auto;padding:15px;outline:1px solid black;position:relative;}
 
