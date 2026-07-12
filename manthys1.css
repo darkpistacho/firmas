@@ -1,0 +1,32 @@
+@font-face {font-family: 'Playfair Display';font-style: normal;font-weight: 400 900;font-display: swap;src: url(https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');}
+
+.manthy0 {width: 290px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #0c0c0c;
+    position: relative;
+    padding: 10px;
+    outline: 1px solid #1a1a1a;}
+
+.manthy1 {width:290px;height:200px;background:url(https://i.ibb.co/nMNMPHT9/02fir.png);position:relative;}
+
+.manthy11 {width:290px;height:200px;background:url(https://i.ibb.co/F4BKhbQX/02fir2.png);position:absolute;left:10px;top:10px;opacity:0;transition:1s ease-in-out 0s;}
+
+.manthy2 {position: absolute;
+    bottom: 20px;
+    background: #7171711c;
+    width: 100%;
+    left: 0px;
+    border-top: 1px solid #464646;
+    border-bottom: 1px solid #464646;
+    text-align: center;
+    font-family: 'Playfair Display';
+    text-transform: uppercase;
+    font-size: 8px;
+    padding: 3px 0px;
+    letter-spacing: 7px;color:#ddd;transition:0.5s ease-in-out 0s;}
+
+.manthy0:hover .manthy11 {opacity:0.7;transition:0.5s ease-in-out 0s;}
+
+.manthy0:hover .manthy2 {letter-spacing:9px;transition:0.5s ease-in-out 0s;}
